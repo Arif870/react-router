@@ -12,6 +12,9 @@ function App() {
           <Link to="/home">home</Link>
         </li>
         <li>
+          <Link to="/friends">friends</Link>
+        </li>
+        <li>
           <Link to="/about">about</Link>
         </li>
       </ul>
