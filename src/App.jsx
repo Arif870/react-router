@@ -1,21 +1,22 @@
 import "./App.css";
 import { Link, Outlet } from "react-router-dom";
+import ActiveLink from "./activeLink/ActiveLink";
 
 function App() {
   return (
     <>
       <ul style={{ listStyle: "none", display: "flex", gap: "10px" }}>
         <li>
-          <Link to="/">app</Link>
+          <ActiveLink to="/">app</ActiveLink>
         </li>
         <li>
-          <Link to="/home">home</Link>
+          <ActiveLink to="/home">home</ActiveLink>
         </li>
         <li>
-          <Link to="/friends">friends</Link>
+          <ActiveLink to="/friends">friends</ActiveLink>
         </li>
         <li>
-          <Link to="/about">about</Link>
+          <ActiveLink to="/about">about</ActiveLink>
         </li>
       </ul>
 
