@@ -9,6 +9,7 @@ const FriendDetails = () => {
     <div>
       <h3>Username : {friendDetails.username}</h3>
       <p>Email: {friendDetails.email}</p>
+      <p>Phone: {friendDetails.phone}</p>
     </div>
   );
 };
